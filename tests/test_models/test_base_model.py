@@ -16,10 +16,10 @@ class TestBaseModel(unittest.TestCase):
     """
     The test suite for models.base_model.BaseModel
     """
-    def test_pep8_FIleStorage(self):
+    def test_pep8_Basemodel(self):
         """Test pep8 style"""
         style = pep8.StyleGuide(quite=true)
-        p = style.check_files(['models/engine/file_storage.py'])
+        p = style.check_files(['models/base_model.py'])
         self.assertEqual(p.total_errors, 0, "check pep8")
         
     def test_if_BaseModel_instance_has_id(self):
