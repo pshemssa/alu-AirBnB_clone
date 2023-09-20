@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-0x00 AirBnB clone | The console
-=======
 ![hbnb_logo](https://user-images.githubusercontent.com/109422686/218307997-1d7c029e-bc01-4720-a4d9-c91e29c4a9ec.png)
 <h1>AirBnB Clone Project</h1>
 
@@ -279,6 +276,5 @@ git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS
-  ```joshua malong, Shemssa patience
+  ```Malong Maker, Chamssa Patience
   
->>>>>>> 44a060df2cf1c8b252a0b7092d575d584bc09be6
